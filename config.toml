@@ -25,5 +25,5 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     # Check the static/css/highlight directory for options.
     highlight = "default"
     
-    github = "https://github.com/emmamclarnon1/garden"
-    twitter= "https://twitter.com/emmamclarnon"
+    github = "emmamclarnon1/garden"
+    twitter= "emmamclarnon"
