@@ -1,40 +1,29 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "gardenR"
-theme = "hugo-lithium-theme"
+theme = "hyde-y"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
-
-[[menu.main]]
-    name = "About"
-    url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/emmamclarnon1/garden"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/emmamclarnon"
-
+#[[main.menu]]
+ # name = About
+  #url = "/about/"
 [params]
-    description = "A website built through Hugo and blogdown."
-
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.11.0"
-    highlightjsCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
+    brand = ""
+    topline = "A site to document my journey in growing food"
+    #footline = "code with <i class='fa fa-heart'></i>"
+    
     sidebar = "left"
 
-    MathJaxCDN = "//cdn.bootcss.com"
-    MathJaxVersion = "2.7.1"
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
-
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "Home"
+  
+    
+     # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+    
+    github = "https://github.com/emmamclarnon1/garden"
+    twitter= "https://twitter.com/emmamclarnon"
