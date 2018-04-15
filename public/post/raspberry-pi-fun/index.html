@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>Raspberry Pi fun  &middot; gardenR</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="raspberry pi, edibles, gardening, ">
+
+
+<meta property="og:title" content="Raspberry Pi fun  &middot; gardenR ">
+<meta property="og:site_name" content="gardenR"/>
+<meta property="og:url" content="/post/raspberry-pi-fun/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2018-04-15T00:00:00Z" />
+<meta property="og:article:modified_time" content="2018-04-15T00:00:00Z" />
+
+  
+    
+<meta property="og:article:tag" content="raspberry pi">
+    
+<meta property="og:article:tag" content="edibles">
+    
+<meta property="og:article:tag" content="gardening">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@emmamclarnon" />
+<meta name="twitter:creator" content="@emmamclarnon" />
+<meta name="twitter:title" content="Raspberry Pi fun" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="/post/raspberry-pi-fun/" />
+<meta name="twitter:domain" content="/">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "Raspberry Pi fun",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2018-04-15",
+    "description": "",
+    "wordCount": 928
+  }
+</script>
+
+
+
+<link rel="canonical" href="/post/raspberry-pi-fun/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link href="/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.38.2" />
+
+  
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/highlight/default.css">
+
+  
+  
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper has-sidebar">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="/">
+  gardenR
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+  A site to document my journey in growing food
+
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+<a class="homelink" href="/">Home</a>
+
+
+  
+<a href="/about">About</a>
+
+<a href="/post" title="Show list of posts">Posts</a>
+
+<a href="/tags" title="Show list of tags">Tags</a>
+
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+
+
+<a id="contact-link-github" class="contact_link" href="https://github.com/emmamclarnon1/garden">
+  <span class="fa fa-github-square"></span><span>github</span></a>
+
+
+
+
+
+
+
+
+
+
+
+<a id="contact-link-twitter" class="contact_link" href="https://twitter.com/emmamclarnon">
+  <span class="fa fa-twitter-square"></span><span>twitter</span></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>Raspberry Pi fun
+</h1>
+
+  <div class="metas">
+<time datetime="2018-04-15">15 Apr, 2018</time>
+
+
+  
+    &middot; by Emma McLarnon
+  
+  &middot; Read in about 5 min
+  &middot; (928 Words)
+  <br>
+  
+<a class="label" href="/tags/raspberry-pi">raspberry pi</a>
+
+<a class="label" href="/tags/edibles">edibles</a>
+
+<a class="label" href="/tags/gardening">gardening</a>
+
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  <p>Today I tried to set up my Pi and the DHT22 sensor. It was all going to well in the beginning. The stuff I ordered from eBay arrived really fast (see references section for supplier details) and I was bright eyed and bushy tailed this morning at 10am.</p>
+<div id="problem-number-1-i-have-no-idea-about-electronics" class="section level3">
+<h3>Problem number 1: I have no idea about electronics</h3>
+<p>To elaborate, I tried to use a couple of really great tutorials I found online, to help set up the sensor and store the data in a mysql database. Easy! Follow the tutorial and it’s done, right? Big fat “computer says no”. The set up I’m using consists of a breadboard because I can’t solder. I was following this for the setup (<a href="https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4" class="uri">https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4</a>), but then I realised I only had male/ female jumper wires and you need 3 connector wires (or whatever they are called) - you could also use male/male jumper wires because they have pins both ends. Anyhow, as I mentioned, I only had M/F ones. Luckily, Liv is good with electronics (e.g. when I cut through the hedge trimmers, she can rewrite the things) so she stripped some extra cables and made some M/M wires.</p>
+<p>Excellent. Let’s move on using the other tutorial (<a href="http://www.instructables.com/id/Raspberry-PI-and-DHT22-temperature-and-humidity-lo/" class="uri">http://www.instructables.com/id/Raspberry-PI-and-DHT22-temperature-and-humidity-lo/</a>).</p>
+</div>
+<div id="problem-number-2-static-ip-addresses" class="section level3">
+<h3>Problem number 2: Static IP addresses</h3>
+<p>The second tutorial recommends that you set a static IP address for your Pi. This means that when you try to link up a dataabase, the IP address for your Pi won’t keep changing (as it is usually recycled by your router every two weeks or so). I followed the instructions, but this only resulted in no internet. After a <strong>couple of hours</strong> (I know, I shouldn’t have wasted <em>that</em> much time, but how hard can it be to do, right?). I reverted back to the original settings and decided that since my IP address hasn’t changed yet, perhaps it won’t - let’s hope so.</p>
+</div>
+<div id="problem-number-3-mysql-server" class="section level3">
+<h3>Problem number 3: mysql server</h3>
+<p>I’ve managed to hook up the DHT22 as per the tutorial and get a reading. Success! I’m going be be finished really soon. WRONG! I try to enter the fateful lines</p>
+<pre class="r{eval=f}"><code>sudo apt-get install mysql-server python-mysqldb</code></pre>
+<p>It’s one line of code. To install the mysql database. How could this go wrong? Well, I’ll tell you: after trying this failed, I did a quick search on the internet and it suggested I update all packages and upgrade them. So I did and same error message. Then I tried:</p>
+<pre class="r{eval=f}"><code>sudo apt-get update --fix-missing
+sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade</code></pre>
+<p>This seemed to do the trick. Finally! The installation works.</p>
+<p>Another problem appears: the tutorial said I should be asked to set a root password. I didn’t get asked this. How do I access the DB? It keeps telling me access is denied for <a href="mailto:root@localhost">root@localhost</a>. I tried to reset it but no such luck.</p>
+<p>I have to uninstall mysql and reinstall it to get it working. No idea what went wrong, or what I did.</p>
+<p>To remove it:</p>
+<pre class="r{eval=f}"><code>sudo pkill mysql
+sudo pkill mariadb
+sudo apt-get remove --purge mysql\*
+sudo apt-get remove --purge mariadb\*</code></pre>
+<p>Then run</p>
+<pre class="r{eval=f}"><code>sudo apt-get install mysql-server python-mysqldb</code></pre>
+<p>This nicely brings me back to about 2 hours ago… I’ve managed to find a good article to help (<a href="https://askubuntu.com/questions/931001/problem-with-mysql-root-password" class="uri">https://askubuntu.com/questions/931001/problem-with-mysql-root-password</a>). Now, I had done this before, but when I typed in</p>
+<pre class="r{eval=f}"><code>mysql</code></pre>
+<p>I got an error message about <a href="mailto:pi@localhost">pi@localhost</a> being denied permission. Turns out, I was doing it wrong. You need to type in:</p>
+<pre class="r{eval=t}"><code>mysql -u root -p -h localhost</code></pre>
+<p>You’ll see the message that 1 row was affected, this mean the password was successfully changed. Pretty sure I didn’t get 1 row changed before, which is why I didn’t think it had worked.</p>
+<p>After yet more hours, it still doesn’t seem to work. It turns out, (<a href="https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908" class="uri">https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908</a>) you can just get root access via</p>
+<pre class="r{}"><code>sudo mysql -u root -p -h localhost</code></pre>
+<p>and it doesn’t matter if you don’t enter any password. You can still change it (see article) but I’ve decided against it as I have little time left today and I’ve managed to create the logger account without any issues.</p>
+<p>Onwards!</p>
+<p>Having followed said instructions and tested out the DHT22, it successfully logs the data every 5 minutes. <strong>Note</strong> the script DHT22logger.py needed adjusting as I only had one sensor. I commented all the lines with sensor2 (using #) and it worked. I also had to remove all sensor 2 info from the json file too.</p>
+<p>A 5 minute collection of data is too frequent, I’ve changed the 5 to 60 (hourly instead of 5 mins).</p>
+<p>On to LAMP installation (Linux, Apache, MySQL and PHP). <strong>Note</strong> the tutorial installation didn’t work for me. I’ve setup LAMP before on a different Pi, so I was able to navigate to this site (<a href="https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress/3" class="uri">https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress/3</a>) which I know works. Follow the installation for the Apache, MySQL and the PHP. Ignore the rest.</p>
+<p>Next! (Yes, I am feeling smug - but 9 hours in and I’m not sure how worth it this really is).</p>
+<p>Okay - I can’t get the DDNS part to work. I give up. It still should work on the local IP address using the index.php file. I’m calling it a day, not entirely sure it was successful!</p>
+<p>Until tomorrow. I may end up using the API from the first tutorial. I’ll dig some more.</p>
+<div id="references" class="section level4">
+<h4>References</h4>
+<p>Tutorial for R Pi pinout and diagram to connect to breadboard (<a href="https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4" class="uri">https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4</a>)</p>
+<p>Tutorial for R Pi DHT22 and MySQL server set up (<a href="http://www.instructables.com/id/Raspberry-PI-and-DHT22-temperature-and-humidity-lo/" class="uri">http://www.instructables.com/id/Raspberry-PI-and-DHT22-temperature-and-humidity-lo/</a>)</p>
+<p>Resetting password on root mysql and the comment by carp that says sudo mysql -u root -p replaces password (<a href="https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908" class="uri">https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908</a>)</p>
+</div>
+</div>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+    
+    <a class="prev" href="/post/first-post/" title="First post!">
+      Previous
+    </a>
+    
+
+    
+
+  
+
+
+</div>
+
+  <div class="container comments">
+  <h2>Comments</h2>
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//https-gardenr-netlify-com.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+
+</div>
+
+
+  
+
+</div>
+
+</footer>
+
+    </main>
+    
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//https-gardenr-netlify-com.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+    
+  </body>
+</html>
+

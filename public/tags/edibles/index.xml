@@ -6,10 +6,20 @@
     <description>Recent content in Edibles on gardenR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/edibles/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Raspberry Pi fun</title>
+      <link>/post/raspberry-pi-fun/</link>
+      <pubDate>Sun, 15 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/raspberry-pi-fun/</guid>
+      <description>Today I tried to set up my Pi and the DHT22 sensor. It was all going to well in the beginning. The stuff I ordered from eBay arrived really fast (see references section for supplier details) and I was bright eyed and bushy tailed this morning at 10am.
+Problem number 1: I have no idea about electronicsTo elaborate, I tried to use a couple of really great tutorials I found online, to help set up the sensor and store the data in a mysql database.</description>
+    </item>
     
     <item>
       <title>First post!</title>

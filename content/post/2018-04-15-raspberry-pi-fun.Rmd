@@ -1,0 +1,108 @@
+---
+title: Raspberry Pi fun
+author: Emma McLarnon
+date: '2018-04-15'
+slug: raspberry-pi-fun
+categories:
+  - Raspberry Pi
+tags:
+  - raspberry pi
+  - edibles
+  - gardening
+---
+
+Today I tried to set up my Pi and the DHT22 sensor.  It was all going to well in the beginning.  The stuff I ordered from eBay arrived really fast (see references section for supplier details) and I was bright eyed and bushy tailed this morning at 10am. 
+
+###Problem number 1:  I have no idea about electronics
+
+To elaborate, I tried to use a couple of really great tutorials I found online, to help set up the sensor and store the data in a mysql database.  Easy!  Follow the tutorial and it's done, right? Big fat "computer says no".  The set up I'm using consists of a breadboard because I can't solder.  I was following this for the setup (https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4), but then I realised I only had male/ female jumper wires and you need 3 connector wires (or whatever they are called) - you could also use male/male jumper wires because they have pins both ends.  Anyhow, as I mentioned, I only had M/F ones.  Luckily, Liv is good with electronics (e.g. when I cut through the hedge trimmers, she can rewrite the things) so she stripped some extra cables and made some M/M wires.  
+
+Excellent.  Let's move on using the other tutorial (http://www.instructables.com/id/Raspberry-PI-and-DHT22-temperature-and-humidity-lo/).
+
+###Problem number 2: Static IP addresses
+
+The second tutorial recommends that you set a static IP address for your Pi.  This means that when you try to link up a dataabase, the IP address for your Pi won't keep changing (as it is usually recycled by your router every two weeks or so).  I followed the instructions, but this only resulted in no internet.  After a **couple of hours** (I know, I shouldn't have wasted *that* much time, but how hard can it be to do, right?).  I reverted back to the original settings and decided that since my IP address hasn't changed yet, perhaps it won't - let's hope so.
+
+###Problem number 3: mysql server
+
+I've managed to hook up the DHT22 as per the tutorial and get a reading.  Success!  I'm going be be finished really soon.  WRONG!  I try to enter the fateful lines
+
+```r{eval=F}
+sudo apt-get install mysql-server python-mysqldb
+```
+
+It's one line of code.  To install the mysql database.  How could this go wrong?  Well, I'll tell you:  after trying this failed, I did a quick search on the internet and it suggested I update all packages and upgrade them.  So I did and same error message.  Then I tried:
+
+```r{eval=F}
+sudo apt-get update --fix-missing
+sudo apt-get update && sudo apt-get dist-upgrade
+```
+
+This seemed to do the trick.  Finally! The installation works.
+
+Another problem appears:  the tutorial said I should be asked to set a root password.  I didn't get asked this.  How do I access the DB?  It keeps telling me access is denied for root@localhost.  I tried to reset it but no such luck.
+
+I have to uninstall mysql and reinstall it to get it working.  No idea what went wrong, or what I did.
+
+To remove it:
+```r{eval=F}
+sudo pkill mysql
+sudo pkill mariadb
+sudo apt-get remove --purge mysql\*
+sudo apt-get remove --purge mariadb\*
+```
+
+Then run
+```r{eval=F}
+sudo apt-get install mysql-server python-mysqldb
+```
+
+This nicely brings me back to about 2 hours ago... I've managed to find a good article to help (https://askubuntu.com/questions/931001/problem-with-mysql-root-password).  Now, I had done this before, but when I typed in 
+```r{eval=F}
+mysql
+```
+I got an error message about pi@localhost being denied permission.  Turns out, I was doing it wrong.  You need to type in:
+
+```r{eval=T}
+mysql -u root -p -h localhost
+```
+You'll see the message that 1 row was affected, this mean the password was successfully changed.  Pretty sure I didn't get 1 row changed before, which is why I didn't think it had worked.
+
+
+After yet more hours, it still doesn't seem to work.  It turns out, (https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908) you can just get root access via 
+
+```r{}
+sudo mysql -u root -p -h localhost
+```
+and it doesn't matter if you don't enter any password.  You can still change it (see article) but I've decided against it as I have little time left today and I've managed to create the logger account without any issues.
+
+Onwards!
+
+Having followed said instructions and tested out the DHT22, it successfully logs the data every 5 minutes.  **Note** the script DHT22logger.py needed adjusting as I only had one sensor.  I commented all the lines with sensor2 (using #) and it worked.  I also had to remove all sensor 2 info from the json file too.
+
+A 5 minute collection of data is too frequent, I've changed the 5 to 60 (hourly instead of 5 mins).
+
+On to LAMP installation (Linux, Apache, MySQL and PHP).  **Note** the tutorial installation didn't work for me.  I've setup LAMP before on a different Pi, so I was able to navigate to this site (https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress/3) which I know works. Follow the installation for the Apache, MySQL and the PHP.  Ignore the rest. 
+
+Next! (Yes, I am feeling smug - but 9 hours in and I'm not sure how worth it this really is).
+
+Okay - I can't get the DDNS part to work.  I give up.  It still should work on the local IP address using the index.php file.  I'm calling it a day, not entirely sure it was successful!
+
+Until tomorrow.  I may end up using the API from the first tutorial.  I'll dig some more.  
+
+
+
+####References
+Tutorial for R Pi pinout and diagram to connect to breadboard (https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4)
+
+Tutorial for R Pi DHT22 and MySQL server set up (http://www.instructables.com/id/Raspberry-PI-and-DHT22-temperature-and-humidity-lo/) 
+
+Resetting password on root mysql and the comment by carp that says sudo mysql -u root -p replaces password (https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908)
+
+
+
+
+
+
+
+
