@@ -1,0 +1,28 @@
+---
+title: DHT22 success!
+author: Emma McLarnon
+date: '2018-04-16'
+slug: dht22-success
+categories:
+  - Raspberry Pi
+  - edibles
+tags:
+  - raspberry pi
+  - edibles
+---
+
+###More Pi fun
+ 
+So after yesterday's massive fail, I decided to go with  (https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4).  It took me around 5 minutes to set up.  Boo!  I wanted to use the other one because I was interested int he MySQL side of things.  Therefore, this is a temporary measure and I will do my own programming to get it working.  I've been working on a similar project in work to collect data, store it in a DB and write it to the php script so I will have to rememeber how to do that.  For now, the API is fine.  One thing that didn't work, but took about 30s to fix was the crontab thing, it didn't keep updating data but it worked when I added it as a script.  I've completely undone all of my work from yesterday.  It's in the non-existent Linux bin. 
+
+Another issue I have often with the Pi is that I sometimes can't remote on (I mainly use a headless setup, so this is pretty important).  If this happens, I've found this solution to work:
+
+http://yup-the-website-domain-is.mindginative.com/post/raspberrypi-ssh-connection-reset/  
+
+She's working!  I'm very pleased.  Battery pack has lasted at least 3 hours now, taking readings every 5 mins.  It's a 2000mA usb battery pack.
+![Setup](/images/pi.jpg)
+
+###Plants!
+I managed to plant out all the seeds into the greenhouse that I had germinated inside.  I spent an hour washing plant labels.  Must.remember.next.year.to.wash.before.end.of.winter.  So that was nice sat in the greenhouse like a little ferret on a stool, scrubbing away.  Who knows what the neighbours thought!
+
+![Plants](/images/plants.jpg)

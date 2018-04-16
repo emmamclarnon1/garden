@@ -17,6 +17,10 @@ tags:
 <div id="problem-number-1-i-have-no-idea-about-electronics" class="section level3">
 <h3>Problem number 1: I have no idea about electronics</h3>
 <p>To elaborate, I tried to use a couple of really great tutorials I found online, to help set up the sensor and store the data in a mysql database. Easy! Follow the tutorial and it’s done, right? Big fat “computer says no”. The set up I’m using consists of a breadboard because I can’t solder. I was following this for the setup (<a href="https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4" class="uri">https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4</a>), but then I realised I only had male/ female jumper wires and you need 3 connector wires (or whatever they are called) - you could also use male/male jumper wires because they have pins both ends. Anyhow, as I mentioned, I only had M/F ones. Luckily, Liv is good with electronics (e.g. when I cut through the hedge trimmers, she can rewrite the things) so she stripped some extra cables and made some M/M wires.</p>
+<div class="figure">
+<img src="/images/breadboard.jpg" alt="Breadboard setup" />
+<p class="caption">Breadboard setup</p>
+</div>
 <p>Excellent. Let’s move on using the other tutorial (<a href="http://www.instructables.com/id/Raspberry-PI-and-DHT22-temperature-and-humidity-lo/" class="uri">http://www.instructables.com/id/Raspberry-PI-and-DHT22-temperature-and-humidity-lo/</a>).</p>
 </div>
 <div id="problem-number-2-static-ip-addresses" class="section level3">
@@ -25,7 +29,7 @@ tags:
 </div>
 <div id="problem-number-3-mysql-server" class="section level3">
 <h3>Problem number 3: mysql server</h3>
-<p>I’ve managed to hook up the DHT22 as per the tutorial and get a reading. Success! I’m going be be finished really soon. WRONG! I try to enter the fateful lines</p>
+<p>I’ve managed to hook up the DHT22 as per the tutorial and get a reading. Success! I’m going be be finished really soon. WRONG! I try to enter the fateful lines:</p>
 <pre class="r{eval=f}"><code>sudo apt-get install mysql-server python-mysqldb</code></pre>
 <p>It’s one line of code. To install the mysql database. How could this go wrong? Well, I’ll tell you: after trying this failed, I did a quick search on the internet and it suggested I update all packages and upgrade them. So I did and same error message. Then I tried:</p>
 <pre class="r{eval=f}"><code>sudo apt-get update --fix-missing
@@ -38,20 +42,20 @@ sudo apt-get update &amp;&amp; sudo apt-get dist-upgrade</code></pre>
 sudo pkill mariadb
 sudo apt-get remove --purge mysql\*
 sudo apt-get remove --purge mariadb\*</code></pre>
-<p>Then run</p>
+<p>Then run:</p>
 <pre class="r{eval=f}"><code>sudo apt-get install mysql-server python-mysqldb</code></pre>
-<p>This nicely brings me back to about 2 hours ago… I’ve managed to find a good article to help (<a href="https://askubuntu.com/questions/931001/problem-with-mysql-root-password" class="uri">https://askubuntu.com/questions/931001/problem-with-mysql-root-password</a>). Now, I had done this before, but when I typed in</p>
+<p>This nicely brings me back to about 2 hours ago… I’ve managed to find a good article to help (<a href="https://askubuntu.com/questions/931001/problem-with-mysql-root-password" class="uri">https://askubuntu.com/questions/931001/problem-with-mysql-root-password</a>). Now, I had done this before, but when I typed in:</p>
 <pre class="r{eval=f}"><code>mysql</code></pre>
 <p>I got an error message about <a href="mailto:pi@localhost">pi@localhost</a> being denied permission. Turns out, I was doing it wrong. You need to type in:</p>
 <pre class="r{eval=t}"><code>mysql -u root -p -h localhost</code></pre>
 <p>You’ll see the message that 1 row was affected, this mean the password was successfully changed. Pretty sure I didn’t get 1 row changed before, which is why I didn’t think it had worked.</p>
-<p>After yet more hours, it still doesn’t seem to work. It turns out, (<a href="https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908" class="uri">https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908</a>) you can just get root access via</p>
+<p>After yet more hours, it still doesn’t seem to work. It turns out, (<a href="https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908" class="uri">https://askubuntu.com/questions/766900/mysql-doesnt-ask-for-root-password-when-installing/766908#766908</a>) you can just get root access via:</p>
 <pre class="r{}"><code>sudo mysql -u root -p -h localhost</code></pre>
 <p>and it doesn’t matter if you don’t enter any password. You can still change it (see article) but I’ve decided against it as I have little time left today and I’ve managed to create the logger account without any issues.</p>
 <p>Onwards!</p>
 <p>Having followed said instructions and tested out the DHT22, it successfully logs the data every 5 minutes. <strong>Note</strong> the script DHT22logger.py needed adjusting as I only had one sensor. I commented all the lines with sensor2 (using #) and it worked. I also had to remove all sensor 2 info from the json file too.</p>
 <p>A 5 minute collection of data is too frequent, I’ve changed the 5 to 60 (hourly instead of 5 mins).</p>
-<p>On to LAMP installation (Linux, Apache, MySQL and PHP). <strong>Note</strong> the tutorial installation didn’t work for me. I’ve setup LAMP before on a different Pi, so I was able to navigate to this site (<a href="https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress/3" class="uri">https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress/3</a>) which I know works. Follow the installation for the Apache, MySQL and the PHP. Ignore the rest.</p>
+<p>On to LAMP installation (Linux, Apache, MySQL and PHP). <strong>Note</strong> the tutorial installation didn’t work for me. I’ve setup LAMP before on a different Pi, so I was able to navigate to this site: (<a href="https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress/3" class="uri">https://projects.raspberrypi.org/en/projects/lamp-web-server-with-wordpress/3</a>) which I know works. Follow the installation for the Apache, MySQL and the PHP. Ignore the rest.</p>
 <p>Next! (Yes, I am feeling smug - but 9 hours in and I’m not sure how worth it this really is).</p>
 <p>Okay - I can’t get the DDNS part to work. I give up. It still should work on the local IP address using the index.php file. I’m calling it a day, not entirely sure it was successful!</p>
 <p>Until tomorrow. I may end up using the API from the first tutorial. I’ll dig some more.</p>

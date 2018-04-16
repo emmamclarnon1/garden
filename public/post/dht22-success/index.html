@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]> <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]> <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <title>DHT22 success!  &middot; gardenR</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<meta name="description" content="" />
+
+<meta name="keywords" content="raspberry pi, edibles, ">
+
+
+<meta property="og:title" content="DHT22 success!  &middot; gardenR ">
+<meta property="og:site_name" content="gardenR"/>
+<meta property="og:url" content="/post/dht22-success/" />
+<meta property="og:locale" content="en-us">
+
+
+<meta property="og:type" content="article" />
+<meta property="og:description" content=""/>
+<meta property="og:article:published_time" content="2018-04-16T00:00:00Z" />
+<meta property="og:article:modified_time" content="2018-04-16T00:00:00Z" />
+
+  
+    
+<meta property="og:article:tag" content="raspberry pi">
+    
+<meta property="og:article:tag" content="edibles">
+    
+  
+
+  
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:site" content="@emmamclarnon" />
+<meta name="twitter:creator" content="@emmamclarnon" />
+<meta name="twitter:title" content="DHT22 success!" />
+<meta name="twitter:description" content="" />
+<meta name="twitter:url" content="/post/dht22-success/" />
+<meta name="twitter:domain" content="/">
+  
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "DHT22 success!",
+    "author": {
+      "@type": "Person",
+      "name": "http://profiles.google.com/+?rel=author"
+    },
+    "datePublished": "2018-04-16",
+    "description": "",
+    "wordCount": 253
+  }
+</script>
+
+
+
+<link rel="canonical" href="/post/dht22-success/" />
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/touch-icon-144-precomposed.png">
+<link href="/favicon.png" rel="icon">
+
+<meta name="generator" content="Hugo 0.38.2" />
+
+  
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<link href='https://fonts.googleapis.com/css?family=Merriweather:300%7CRaleway%7COpen+Sans' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/css/font-awesome.min.css">
+<link rel="stylesheet" href="/css/style.css">
+<link rel="stylesheet" href="/css/highlight/default.css">
+
+  
+  
+</head>
+<body>
+  <main id="main-wrapper" class="container main_wrapper has-sidebar">
+    <header id="main-header" class="container main_header">
+  <div class="container brand">
+  <div class="container title h1-like">
+  <a class="baselink" href="/">
+  gardenR
+
+</a>
+
+</div>
+
+  
+<div class="container topline">
+  
+  A site to document my journey in growing food
+
+
+</div>
+
+
+</div>
+
+  <nav class="container nav primary no-print">
+  
+
+<a class="homelink" href="/">Home</a>
+
+
+  
+<a href="/about">About</a>
+
+<a href="/post" title="Show list of posts">Posts</a>
+
+<a href="/tags" title="Show list of tags">Tags</a>
+
+
+</nav>
+
+<div class="container nav secondary no-print">
+  
+
+
+<a id="contact-link-github" class="contact_link" href="https://github.com/emmamclarnon1/garden">
+  <span class="fa fa-github-square"></span><span>github</span></a>
+
+
+
+
+
+
+
+
+
+
+
+<a id="contact-link-twitter" class="contact_link" href="https://twitter.com/emmamclarnon">
+  <span class="fa fa-twitter-square"></span><span>twitter</span></a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+  
+
+</header>
+
+
+<article id="main-content" class="container main_content single">
+  <header class="container hat">
+  <h1>DHT22 success!
+</h1>
+
+  <div class="metas">
+<time datetime="2018-04-16">16 Apr, 2018</time>
+
+
+  
+    &middot; by Emma McLarnon
+  
+  &middot; Read in about 2 min
+  &middot; (253 Words)
+  <br>
+  
+<a class="label" href="/tags/raspberry-pi">raspberry pi</a>
+
+<a class="label" href="/tags/edibles">edibles</a>
+
+
+
+</div>
+
+</header>
+
+  <div class="container content">
+  <div id="more-pi-fun" class="section level3">
+<h3>More Pi fun</h3>
+<p>So after yesterday’s massive fail, I decided to go with (<a href="https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4" class="uri">https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4</a>). It took me around 5 minutes to set up. Boo! I wanted to use the other one because I was interested int he MySQL side of things. Therefore, this is a temporary measure and I will do my own programming to get it working. I’ve been working on a similar project in work to collect data, store it in a DB and write it to the php script so I will have to rememeber how to do that. For now, the API is fine. One thing that didn’t work, but took about 30s to fix was the crontab thing, it didn’t keep updating data but it worked when I added it as a script. I’ve completely undone all of my work from yesterday. It’s in the non-existent Linux bin.</p>
+<p>Another issue I have often with the Pi is that I sometimes can’t remote on (I mainly use a headless setup, so this is pretty important). If this happens, I’ve found this solution to work:</p>
+<p><a href="http://yup-the-website-domain-is.mindginative.com/post/raspberrypi-ssh-connection-reset/" class="uri">http://yup-the-website-domain-is.mindginative.com/post/raspberrypi-ssh-connection-reset/</a></p>
+<p>She’s working! I’m very pleased. Battery pack has lasted at least 3 hours now, taking readings every 5 mins. It’s a 2000mA usb battery pack. <img src="/images/pi.jpg" alt="Setup" /></p>
+</div>
+<div id="plants" class="section level3">
+<h3>Plants!</h3>
+<p>I managed to plant out all the seeds into the greenhouse that I had germinated inside. I spent an hour washing plant labels. Must.remember.next.year.to.wash.before.end.of.winter. So that was nice sat in the greenhouse like a little ferret on a stool, scrubbing away. Who knows what the neighbours thought!</p>
+<div class="figure">
+<img src="/images/plants.jpg" alt="Plants" />
+<p class="caption">Plants</p>
+</div>
+</div>
+
+</div>
+
+
+  <footer class="container">
+  <div class="container navigation no-print">
+  <h2>Navigation</h2>
+  
+  
+
+    
+    <a class="prev" href="/post/raspberry-pi-fun/" title="Raspberry Pi fun">
+      Previous
+    </a>
+    
+
+    
+
+  
+
+
+</div>
+
+  <div class="container comments">
+  <h2>Comments</h2>
+  
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//https-gardenr-netlify-com.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+</div>
+
+</footer>
+
+</article>
+      <footer id="main-footer" class="container main_footer">
+  
+
+  <div class="container nav foot no-print">
+  
+
+  <a class="toplink" href="#">back to top</a>
+
+</div>
+
+  <div class="container credits">
+  
+<div class="container footline">
+  
+
+</div>
+
+
+  
+
+</div>
+
+</footer>
+
+    </main>
+    
+<script type="text/javascript">
+  (function() {
+    
+    
+    if (window.location.hostname == "localhost")
+      return;
+
+    var dsq = document.createElement('script'); dsq.async = true; dsq.type = 'text/javascript';
+    dsq.src = '//https-gardenr-netlify-com.disqus.com/count.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+
+
+
+<script src="/js/highlight.pack.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+
+
+    
+  </body>
+</html>
+
