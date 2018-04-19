@@ -17,7 +17,7 @@
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/dht22-success/</guid>
-      <description>More Pi funSo after yesterday’s massive fail, I decided to go with (https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4). It took me around 5 minutes to set up. Boo! I wanted to use the other one because I was interested int he MySQL side of things. Therefore, this is a temporary measure and I will do my own programming to get it working. I’ve been working on a similar project in work to collect data, store it in a DB and write it to the php script so I will have to rememeber how to do that.</description>
+      <description>More Pi funSo after yesterday’s massive fail, I decided to go with (https://www.hackster.io/adamgarbo/raspberry-pi-2-iot-thingspeak-dht22-sensor-b208f4). It took me around 5 minutes to set up. Boo! I wanted to use the other one because I was interested in the MySQL side of things. Therefore, this is a temporary measure and I will do my own programming to get it working. I’ve been working on a similar project in work to collect data, store it in a DB and write it to the php script so I will have to rememeber how to do that.</description>
     </item>
     
     <item>
