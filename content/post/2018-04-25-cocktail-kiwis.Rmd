@@ -1,0 +1,52 @@
+---
+title: Cocktail Kiwis
+author: Emma McLarnon
+date: '2018-04-25'
+slug: cocktail-kiwis
+categories:
+  - edibles
+tags:
+  - gardening
+  -rstats
+---
+
+Today I purchased two small plants (around 9cm of so) of the Kiwi variety Issai.  I also bought this a couple of years ago in a 2 litre pot from Suttons, but I spied these plants in Morrisons for £2 each and couldn't resist - some even have flower buds, but it is good practice to pick these out and leave them to focus their energy on growth.  I bought a lemon balm plant pot, which I'm going to separate out and put in my herb patch and in some pots around the house.  I'm hoping this will smell lovely in the summer.  
+
+I sowed the seeds outside that I mentioned in the last post.  My mum came to stay and knocked my very carefully labelled seed box over and completely messed everything up.  Needless to say I now have no idea what is what (in terms of radishes and kohl robi...) so I've just put them outside and we will see what grows!  Everything is looking swell in the greenhouse.
+
+![Clockwise: Onions growing, kiwi flower buds, kiwi plants from Morrisons, peas and broad beans, honey berry fruit, blackcurrant flowers](/images/plants-update.jpg)
+
+
+Speaking of Kiwis, my older plant has got aphids and some sort of white fly.  Not sure what to do to help it, or why it has it.  I keep it well watered and moved it out of the greenhouse to help get rid of the mites. Must have been those really hot days.  We had temperatures of around 18-20 degrees C last weekend.  It looks like it's going to give a decent crop - there are quite a few flower buds this year compared to last year, though I did only end up with 2 berries so maybe I'll wait  and see before celebrating too early.  I think it may have been too young last year, so it's good that the fruit didn't develop to save energy.
+
+*Pi status alert*: I've ordered and received my new 10000 mAh battery pack.  I plugged it in this morning at 6.50 am, and I'm expecting it to last until around 6 pm.  Let's see.  The app is  working well but it seems I may need to solder the pins and the wires because they keep popping out and then I don't get readings. Very annoying! One thing I have noticed is the difference in temperature between the thermometer and that reported in the Pi.  I've moved the Pi as high as the thermometer now to see if there are spatial microclimates happening in the greenhouse - I'm guessing there will be as the ground will be colder and heat rises.  I need another Pi, battery pack and sensor to test this scientifically.  Which I will not do because I'm not **that** interested! 
+
+Here is some data I collected over a 12 hour period - though the battery pack lasted almost 24 hours - pretty pleased with it!
+
+``` {r, echo=F, message=F}
+
+library(readr)
+library(zoo)
+data<-read_csv("feeds.csv")
+data$Date<-as.POSIXct(strptime(data$Date, format="%Y-%M-%d %H:%M:%S"))
+#str(data)
+#plot(data$Date , data$Humidity...)
+
+library(ggplot2)
+T<-ggplot(data, aes(Date)) + 
+  geom_line(aes(y = Temperature), colour = ("red")) +
+  theme_bw()
+T + ylab("Temperature (°C) ") + xlab ("Time")
+
+H<-ggplot(data, aes(Date)) +
+  geom_line (aes(y= Humidity), colour = ("blue"))+
+  theme_bw()
+H+ ylab("Humidity (%)") + xlab ("Time")
+
+
+```
+
+The onions seem to be growing, I'm really hopeful the slugs will not attack this year but again, I'm cautiously optimistic!  I also have lots of blackcurrant flowers and some honey berry immature fruits!  Very excited! 
+
+More to come soon - next time I'll be setting up an experiment to test germination of chilli seeds.
+
