@@ -11,3 +11,7 @@
     Name = "Tags"
     Title = "Show list of tags"
     URL = "/tags"
+
+[plot]
+    Name = "My Plot"
+    URL = "/myplot"

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chillis on gardenR</title>
+    <link>/tags/chillis/</link>
+    <description>Recent content in Chillis on gardenR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/chillis/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Hamburg Parsley</title>
+      <link>/post/hamburg-parsley/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hamburg-parsley/</guid>
+      <description>The plants in the greenhouse are growing now. It’s still quite chilly here, but I’m hoping it will heat up soon.
+I’ve sown more seeds for the garlic chives because the ones I sowed a couple of weeks ago have not germinated. The old g. chives were from Poundworld and I’ve never been able to germinate them before. I’ve ordered a new batch from www.seekay.co.uk for 99p. I will update the status on their growth as time goes on.</description>
+    </item>
+    
+  </channel>
+</rss>

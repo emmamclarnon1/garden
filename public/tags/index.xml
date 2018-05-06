@@ -6,10 +6,19 @@
     <description>Recent content in Tags on gardenR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alpine Straberries</title>
+      <link>/tags/alpine-straberries/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/alpine-straberries/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Blogdown</title>
@@ -21,9 +30,18 @@
     </item>
     
     <item>
+      <title>Chillis</title>
+      <link>/tags/chillis/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/chillis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Edibles</title>
       <link>/tags/edibles/</link>
-      <pubDate>Wed, 18 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/edibles/</guid>
       <description></description>
@@ -32,9 +50,27 @@
     <item>
       <title>Gardening</title>
       <link>/tags/gardening/</link>
-      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/gardening/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Garlic Chives</title>
+      <link>/tags/garlic-chives/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/garlic-chives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Hamburg Parsley</title>
+      <link>/tags/hamburg-parsley/</link>
+      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/hamburg-parsley/</guid>
       <description></description>
     </item>
     
@@ -44,6 +80,15 @@
       <pubDate>Mon, 16 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/raspberry-pi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rstats</title>
+      <link>/tags/rstats/</link>
+      <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rstats/</guid>
       <description></description>
     </item>
     
