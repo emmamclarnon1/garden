@@ -6,10 +6,19 @@
     <description>Recent content in Tags on gardenR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 14 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Ahids</title>
+      <link>/tags/ahids/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ahids/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Alpine Straberries</title>
@@ -17,6 +26,24 @@
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/alpine-straberries/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Artichoke</title>
+      <link>/tags/artichoke/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/artichoke/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Blackcurrant</title>
+      <link>/tags/blackcurrant/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blackcurrant/</guid>
       <description></description>
     </item>
     
@@ -30,11 +57,47 @@
     </item>
     
     <item>
+      <title>Blueberry</title>
+      <link>/tags/blueberry/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/blueberry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Broad Beans</title>
+      <link>/tags/broad-beans/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/broad-beans/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Caterpillars</title>
+      <link>/tags/caterpillars/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/caterpillars/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Chillis</title>
       <link>/tags/chillis/</link>
-      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/chillis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Courgette</title>
+      <link>/tags/courgette/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/courgette/</guid>
       <description></description>
     </item>
     
@@ -44,6 +107,15 @@
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/edibles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Fig</title>
+      <link>/tags/fig/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/fig/</guid>
       <description></description>
     </item>
     
@@ -59,9 +131,18 @@
     <item>
       <title>Garlic Chives</title>
       <link>/tags/garlic-chives/</link>
-      <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/garlic-chives/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Giant Bulgarian Leek</title>
+      <link>/tags/giant-bulgarian-leek/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/giant-bulgarian-leek/</guid>
       <description></description>
     </item>
     
@@ -71,6 +152,51 @@
       <pubDate>Sun, 29 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/hamburg-parsley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Honey Berry</title>
+      <link>/tags/honey-berry/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/honey-berry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Logan Berry</title>
+      <link>/tags/logan-berry/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/logan-berry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Peas</title>
+      <link>/tags/peas/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/peas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Radishes</title>
+      <link>/tags/radishes/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/radishes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Raspberry</title>
+      <link>/tags/raspberry/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/raspberry/</guid>
       <description></description>
     </item>
     
@@ -89,6 +215,24 @@
       <pubDate>Wed, 25 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/rstats/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Walnut</title>
+      <link>/tags/walnut/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/walnut/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Whitefly</title>
+      <link>/tags/whitefly/</link>
+      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/whitefly/</guid>
       <description></description>
     </item>
     
