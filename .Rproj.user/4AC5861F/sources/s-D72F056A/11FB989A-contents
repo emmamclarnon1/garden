@@ -1,0 +1,29 @@
+baseurl = "/"
+languageCode = "en-us"
+title = "gardenR"
+theme = "hyde-y"
+googleAnalytics = "UA-119137823-1"
+disqusShortname = "https-gardenr-netlify-com"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+#[[main.menu]]
+ # name = About
+  #url = "/about/"
+[params]
+    brand = ""
+    topline = "A site to document my journey in growing food"
+    #footline = "code with <i class='fa fa-heart'></i>"
+    
+    sidebar = "left"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Home".
+    home = "Home"
+  
+    
+     # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "default"
+    
+    github = "emmamclarnon1/garden"
+    twitter= "emmamclarnon"
