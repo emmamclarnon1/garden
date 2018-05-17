@@ -2,7 +2,7 @@ baseurl = "/"
 languageCode = "en-us"
 title = "gardenR"
 theme = "hyde-y"
-googleAnalytics = "UA-119137823-1"
+
 disqusShortname = "https-gardenr-netlify-com"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
@@ -13,7 +13,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     brand = ""
     topline = "A site to document my journey in growing food"
     #footline = "code with <i class='fa fa-heart'></i>"
-    
+    googleAnalytics = "UA-119137823-1"
     sidebar = "left"
 
     # Text for the top menu link, which goes the root URL for the site.
