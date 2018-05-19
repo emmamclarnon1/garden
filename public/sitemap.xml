@@ -113,13 +113,13 @@
   </url>
   
   <url>
-    <loc>/tags/edibles/</loc>
+    <loc>/categories/edibles/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/edibles/</loc>
+    <loc>/tags/edibles/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -131,13 +131,13 @@
   </url>
   
   <url>
-    <loc>/tags/gardening/</loc>
+    <loc>/categories/gardening/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/gardening/</loc>
+    <loc>/tags/gardening/</loc>
     <lastmod>2018-04-29T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -197,13 +197,13 @@
   </url>
   
   <url>
-    <loc>/tags/raspberry-pi/</loc>
+    <loc>/categories/raspberry-pi/</loc>
     <lastmod>2018-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/raspberry-pi/</loc>
+    <loc>/tags/raspberry-pi/</loc>
     <lastmod>2018-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
