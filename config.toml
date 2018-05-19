@@ -1,4 +1,4 @@
-baseurl = "/"
+baseurl = "https://gardenr.netlify.com/"
 languageCode = "en-us"
 title = "gardenR"
 theme = "hyde-y"
