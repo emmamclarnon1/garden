@@ -1,7 +1,8 @@
-baseurl = "/"
+baseurl = "https://gardenr.netlify.com/"
 languageCode = "en-us"
 title = "gardenR"
 theme = "hyde-y"
+googleAnalytics = "UA-119137823-1"
 
 disqusShortname = "https-gardenr-netlify-com"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
