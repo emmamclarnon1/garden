@@ -26,7 +26,10 @@ tags:
 type: post
 description: 
 keywords:
+  -key
+  -words
 topics:
+  -topic 1
 ---
 
 Hello from sunny Leeds!  Yes, more sunshine has been sent.  Today has been really warm and the bank holiday weather was good for the plants.  
@@ -69,12 +72,23 @@ My little blackcurrant bush is producing blackcurrants for the first time, very 
 
 ![](/images/blackcurrant.jpg)
 
+
+
+Everywhere...
+
+
 ![](/images/whitefly.jpg)
 `
 
+Damn things
+
+
 ![](/images/whitefly2.jpg)
 
-I'm not someone who uses pesticides, so I'm going to investigate in alternatives.  My first thoughts are soapy water and maybe some sort of jasmonic acid/ silicon based help too to boost the plant defences.
+
+
+
+I'm not someone who uses pesticides, so I'm going to investigate in alternatives. My first thoughts are soapy water and maybe some sort of jasmonic acid/ silicon based help too to boost the plant defences.
 
 Things are growing slowly but surely in the raised beds too - broadbeans are beginning to flower
 
