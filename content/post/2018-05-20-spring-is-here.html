@@ -16,8 +16,8 @@ slug: spring-is-here
 
 
 
-<div id="googe-analytics" class="section level2">
-<h2>Googe Analytics</h2>
+<div id="google-analytics" class="section level2">
+<h2>Google Analytics</h2>
 <p>I’ve been working on trying to integrate Google Analytics into this blog, so I can see how many people are actually reading it. Easy, right? HA! It <em>should</em> have worked fine, but as with everything, I had a bit of a nightmare. So the workflow is basically: set up a GA account, paste in the tracking code into your blogdown config.toml file (if your theme has this feature built in - and the one I’m using does) and it should work. I pasted the code in. I pushed the files onto github. I eagerly looked on the GA site to see if I could detect myself viewing the page. Nothing. After some investigation, lots of messing around with files I shouldn’t have messed around with, I got it working. I messaged the person who wrote the theme on github and he said the submodule wasn’t working properly, so I deleted the theme and pasted it. I thought it had worked so I was really pleased with myself, turns out it wasn’t fixed. Whoops. I figured this out by making a change on a post and it wasn’t updating on Netlify. Luckily the error code given when the site was failing to deploy showed that the issue remained with the theme. So I deleted it again, but this time I cloned it using git bash and after a few attempts (no idea why it worked the last time but not the first couple) it worked. I do not understand git or the submodule thing but I’m back and I’ve now got GA working.</p>
 </div>
 <div id="plants" class="section level2">
