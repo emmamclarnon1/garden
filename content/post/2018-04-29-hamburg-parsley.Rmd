@@ -2,17 +2,17 @@
 title: Hamburg Parsley
 author: Emma McLarnon
 date: '2018-04-29'
-slug: hamburg-parsley
 categories:
   - edibles
   - gardening
 tags:
-  - edibles
-  - gardening
-  - hamburg parsley
   - alpine straberries
   - chillies
+  - edibles
+  - gardening
   - garlic chives
+  - hamburg parsley
+slug: hamburg-parsley
 ---
 
 The plants in the greenhouse are growing now.  It's still quite chilly here, but I'm hoping it will heat up soon. 

@@ -2,34 +2,29 @@
 title: Pesky pests
 author: Emma McLarnon
 date: '2018-05-14'
-slug: pesky-pests
-categories: []
 tags:
   - aphids
-  - whitefly
-  - caterpillars
-  - broad beans
-  - peas
-  - radishes
-  - giant Bulgarian leek
-  - chillies
+  - artichoke
   - blackcurrant
+  - blueberry
+  - broad beans
+  - caterpillars
+  - chillies
+  - courgette
+  - fig
+  - garlic chives
+  - giant Bulgarian leek
   - honey berry
   - logan berry
+  - peas
+  - radishes
   - raspberry
-  - courgette
-  - blueberry
-  - fig
   - walnut
-  - artichoke
-  - garlic chives
+  - whitefly
+slug: pesky-pests
 type: post
-description: 
-keywords:
-  -key
-  -words
-topics:
-  -topic 1
+keywords: -key -words
+topics: -topic 1
 ---
 
 Hello from sunny Leeds!  Yes, more sunshine has been sent.  Today has been really warm and the bank holiday weather was good for the plants.  
