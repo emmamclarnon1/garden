@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Nectarine on gardenR</title>
+    <link>/tags/nectarine/</link>
+    <description>Recent content in Nectarine on gardenR</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 20 May 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/nectarine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Spring is here!</title>
+      <link>/post/spring-is-here/</link>
+      <pubDate>Sun, 20 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/spring-is-here/</guid>
+      <description>Googe AnalyticsI’ve been working on trying to integrate Google Analytics into this blog, so I can see how many people are actually reading it. Easy, right? HA! It should have worked fine, but as with everything, I had a bit of a nightmare. So the workflow is basically: set up a GA account, paste in the tracking code into your blogdown config.toml file (if your theme has this feature built in - and the one I’m using does) and it should work.</description>
+    </item>
+    
+  </channel>
+</rss>

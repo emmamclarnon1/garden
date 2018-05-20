@@ -1,0 +1,93 @@
+---
+title: Spring is here!
+author: Emma McLarnon
+date: '2018-05-20'
+slug: spring-is-here
+categories: []
+tags:
+  - nectarine
+  - chillies
+  - fig
+  - honey berry
+  - Chilean guava
+  - pear
+  - radishes
+  - marjoram
+---
+
+##Googe Analytics
+I've been working on trying to integrate Google Analytics into this blog, so I can see how many people are actually reading it.  Easy, right?  HA!  It *should* have worked fine, but as with everything, I had a bit of a nightmare.  So the workflow is basically: set up a GA account, paste in the tracking code into your blogdown config.toml file (if your theme has this feature built in - and the one I'm using does) and it should work. I pasted the code in.  I pushed the files onto github.  I eagerly looked on the GA site to see if I could detect myself viewing the page.  Nothing. After some investigation, lots of messing around with files I shouldn't have messed around with, I got it working.  I messaged the person who wrote the theme on github and he said the submodule wasn't working properly, so I deleted the theme and pasted it.  I thought it had worked so I was really pleased with myself, turns out it wasn't fixed. Whoops.  I figured this out by making a change on a post and it wasn't updating on Netlify.  Luckily the error code given when the site was failing to deploy showed that the issue remained with the theme.  So I deleted it again, but this time I cloned it using git bash and after a few attempts (no idea why it worked the last time but not the first couple) it worked.  I do not understand git or the submodule thing but I'm back and I've now got GA working.
+
+##Plants
+Spring is staying put it would seem.  We have had at least a week of sunshine (!).  Very exciting for us northerners.  The warm temperatures and sun mean that all the plants are growing very happily.  
+
+I'm taking photos with a camera and uploading them instead to try and debug the quality issues I've been having.  
+
+The nectarine tree has some weird double fruit - there's only one pedicel but two fruit:
+![](/images/nec2_20_05_18.JPG)
+
+I've read up and apparently this is produced by heat stress.  That's a new one - heat stress in Leeds. It says to remove one fruit otherwise both are likely to rot. 
+
+There's plenty of fruits on the tree, so I'm hoping for at least 1 or 2 mature fruits by the end of the season
+
+![](/images/nec3_20_05_18.JPG)
+
+It's almost time to harvest my first crop of radishes
+
+![](/images/radish2_20_05_18.JPG)
+
+I've also planted out the French beans into the raised beds, they were getting too cramped in their pots so I made the move.  I know I should really have put them outside in the day and took them in at night for a week to allow them to acclimatise, but I thought since the weather has been really good and they are in an unheated greenhouse, that it wouldn't make much difference.
+They seem to be coping well for now.  The purple queen ones look much better than the Ferrari ones, they were very pot bound.  I've sown more seeds already (last week) which I noticed have already germinated, so they soil must be quite warm indeed.
+
+![](/images/radish_20_05_18.JPG)
+
+  I've taken a photo of the honey berry - they are supposed to be similar to blueberries in taste.  They are odd looking things that's for sure
+
+![](/images/honey2.JPG)
+
+I was naughty and didn't buy a second one to help with pollination, but I've also seen lots of honeysuckle nearby so I figured the bees may help me with some pollen.  The one I have (Honeyberry- Lonicera caerulea var. Morena) is a type of blue honeysuckle which has edible berries.  I got one mainly because the fruits are so creepy looking.
+
+I've had to repot the chillies into large containers as I thought they were getting a bit pot bound.  The roots were growing out from the holes in the pot so I was right.  The containers I've put them in aren't ideal, but they are all I have so will have to do.  
+
+![](/images/chillis_20_05_18.JPG)
+Hopefully now those little flower buds on the jalapeños will open and I can get on with playing god using a paintbrush to cross pollinate.
+
+
+Baby figs!
+
+
+
+![](/images/fig2_20_05_18.JPG)
+
+Baby pears!
+
+
+
+![](/images/pear_20_05_18.JPG)
+
+I had major concerns for the Chilean guava plant.  It was looking very sad and I thought by this time last year, it was in flower.  But today I found a few immature flower buds.  All is right with the world again.  The fruits are like crack (not that I've ever had crack).  They are so tasty.  Yum. 
+
+My marjoram plant has come back; I'm super pleased with this wee rascal.  I never knew it was even a perennial until I started growing it and it came back after the winter.  This is the 3rd year of it!  What a delight.  
+
+![](/images/marj_20_05_18.JPG)
+
+It is snuggled in beside the rosemary, sage and chives so I think it's pretty sheltered in there. I mean I think it's marjoram, it could be a different variety of oregano.  It's quite hairy and the leaves do look bigger than marjoram.  I'm fairly certain I sowed marjoram seeds from a herb pack.  Either way, it's in it for the long run. 
+
+
+I also got round to sowing more seeds yesterday.  Finally got more kohl rabi seeds sown as well as cabbage and cauliflower.
+![](/images/me.jpg)
+
+
+I also potted up the courgette eight ball seeds I'd been germinating.  I clipped the seed coats after soaking them for two days and one germinated after a day.  I'm going to set up a new experiment with butternut squash seeds and do the clip, sand and nothing trial again.  I've germinated more Bulgarian giant leeks too in the hope this year is more successful than last time.  Who knows? 
+
+I finally got round to sowing the salsify and scorzonera seeds.  They are weird looking
+
+![](/images/salsify.jpg)
+
+I've sown summer savory and some orange thyme too for the herb patch.  
+
+I'm a bit surprised at the lack of carrot seed germination.  I was fully expecting to be overwhelmed with the dilemma of thinning out or not thinning out to avoid carrot root fly.  Hopefully they will germinate and I can munch on carrots all summer.  Time will tell.  I've sown more turnip seeds too, though they haven't really germinated from the first batch.  Not sure why given the heat we've had.  Probably need to keep up with watering.  I've sown more radish and beetroot seed too.
+
+I'm way too impatient for gardening!
+
+Seed experiment will be posted as it happens.  For now, enjoy the weather and happy growing!

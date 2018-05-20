@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/post/spring-is-here/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/pesky-pests/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
   </url>
@@ -101,8 +106,14 @@
   </url>
   
   <url>
+    <loc>/tags/chilean-guava/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/tags/chillis/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -126,7 +137,7 @@
   
   <url>
     <loc>/tags/fig/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -162,13 +173,31 @@
   
   <url>
     <loc>/tags/honey-berry/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/logan-berry/</loc>
     <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/marjoram/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/nectarine/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/pear/</loc>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -180,13 +209,13 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/radishes/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -234,7 +263,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2018-05-14T00:00:00+00:00</lastmod>
+    <lastmod>2018-05-20T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   

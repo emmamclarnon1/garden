@@ -12,7 +12,7 @@ tags:
   - peas
   - radishes
   - giant Bulgarian leek
-  - chillis
+  - chillies
   - blackcurrant
   - honey berry
   - logan berry
@@ -37,13 +37,13 @@ Hello from sunny Leeds!  Yes, more sunshine has been sent.  Today has been reall
 Note:  I compress the images for the web, but I've noticed the quality is pretty naff and they go all blurred.  Will look into improving these in the future. 
 
 
-To begin, I will start with the ongoing experiment.  The conclusion is: chilli seeds **do not** like to germinate!  I started this experiment on 27/04/2018 and as of today (14/05/2018) the results are as follows (note, I got bored last night of waiting for germination that I've now added other seeds to the mix, hence the odd coloured ones):
+To begin, I will start with the ongoing experiment.  The conclusion is: chili seeds **do not** like to germinate!  I started this experiment on 27/04/2018 and as of today (14/05/2018) the results are as follows (note, I got bored last night of waiting for germination that I've now added other seeds to the mix, hence the odd coloured ones):
 
-Control - wet tissues paper:  1 seed germinated out of 5 on 08/05/2018 (patio chilli seed)  - red circle shows germinated seeds  
+Control - wet tissues paper:  1 seed germinated out of 5 on 08/05/2018 (patio chili seed)  - red circle shows germinated seeds  
 
 ![Control](/images/ctrl.jpg)
 
-Sand paper to the edge of the seed coat: 3 seeds (2 x patio chilli, 1 x thai chilli) germinated on 11/05/2018 - red circle shows germinated seeds
+Sand paper to the edge of the seed coat: 3 seeds (2 x patio chili, 1 x thai chili) germinated on 11/05/2018 - red circle shows germinated seeds
 
 ![Sanded](/images/sand.jpg)
 

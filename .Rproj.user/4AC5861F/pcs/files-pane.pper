@@ -1,5 +1,5 @@
 {
-    "path" : "~/blogdown/garden",
+    "path" : "~/blogdown/garden/content/post",
     "sortOrder" : [
         {
             "ascending" : true,
