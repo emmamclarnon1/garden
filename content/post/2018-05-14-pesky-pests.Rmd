@@ -5,13 +5,13 @@ date: '2018-05-14'
 slug: pesky-pests
 categories: []
 tags:
-  - ahids
+  - aphids
   - whitefly
   - caterpillars
   - broad beans
   - peas
   - radishes
-  - giant bulgarian leek
+  - giant Bulgarian leek
   - chillis
   - blackcurrant
   - honey berry
@@ -26,10 +26,7 @@ tags:
 type: post
 description: 
 keywords:
-  - key
-  - words
 topics:
-  - topic 1
 ---
 
 Hello from sunny Leeds!  Yes, more sunshine has been sent.  Today has been really warm and the bank holiday weather was good for the plants.  
