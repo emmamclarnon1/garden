@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Peas on gardenR</title>
-    <link>/tags/peas/</link>
-    <description>Recent content in Peas on gardenR</description>
+    <title>Kiwi on gardenR</title>
+    <link>/tags/kiwi/</link>
+    <description>Recent content in Kiwi on gardenR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 31 May 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/peas/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/kiwi/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,17 +19,6 @@
       <guid>/post/flowers-galore/</guid>
       <description>Hi again - quick update on things so far. The weather is still very warm and sunny, so everything is finally catching up with the cold start to spring. That said, it has only rained twice in almost four weeks. Things are very dry!
 I had to get the hose out and water the raised beds because I noticed that the flowers from the broadbeans were just dropping off and no pods were setting.</description>
-    </item>
-    
-    <item>
-      <title>Pesky pests</title>
-      <link>/post/pesky-pests/</link>
-      <pubDate>Mon, 14 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/pesky-pests/</guid>
-      <description>Hello from sunny Leeds! Yes, more sunshine has been sent. Today has been really warm and the bank holiday weather was good for the plants.
-Note: I compress the images for the web, but I’ve noticed the quality is pretty naff and they go all blurred. Will look into improving these in the future.
-To begin, I will start with the ongoing experiment. The conclusion is: chili seeds do not like to germinate!</description>
     </item>
     
   </channel>
