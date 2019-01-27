@@ -15,23 +15,6 @@ date: '2019-01-26'
 <script src="/rmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
 
 
-<pre><code>## 
-## Attaching package: &#39;lubridate&#39;</code></pre>
-<pre><code>## The following object is masked from &#39;package:base&#39;:
-## 
-##     date</code></pre>
-<pre><code>## -- Attaching packages ----------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
-<pre><code>## v ggplot2 2.2.1     v purrr   0.2.5
-## v tibble  1.4.2     v dplyr   0.7.8
-## v tidyr   0.8.2     v stringr 1.3.0
-## v readr   1.1.1     v forcats 0.3.0</code></pre>
-<pre><code>## -- Conflicts -------------------------------------------------------------- tidyverse_conflicts() --
-## x lubridate::as.difftime() masks base::as.difftime()
-## x lubridate::date()        masks base::date()
-## x dplyr::filter()          masks stats::filter()
-## x lubridate::intersect()   masks base::intersect()
-## x dplyr::lag()             masks stats::lag()
-## x lubridate::setdiff()     masks base::setdiff()
-## x lubridate::union()       masks base::union()</code></pre>
+<p>This page is here to help me keep track of the seeds I have sown and when I need to harvest them. I’ve added some conditional formatting into the code, so that when the date is equal to or exceeds today’s date, the cells will be highlighted yellow. I’m not sure if this will work in a static website, because the value for today is taken from R, rahter than the website. We’ll have to see if it works. For now, enjoy!</p>
 <div id="htmlwidget-1" style="width:100%;height:auto;" class="datatables html-widget"></div>
 <script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","data":[["Onion","Garlic","Asparagus","Chili","Chili","Chili","Chili","Tomtato","Tomtato","Tomtato","Tomtato","Tomtato","Tomtato","Aubergine","Aubergine","Tomatillo","Corn","Corn","Peas"],["Red","Cassablanca","Green","Cayene","Haberno","Pepchomix","Birds eye","Tigerella","Yellow pear","Plum","San Marnez","Sweet Pea (cherry)","Costoluto Florentino","Moneymaker","Lista de Gandia","Purple","Incredible F1","Fiesta Field","Early Onward"],["2019-01-16","2019-01-16","2019-01-16","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26"],[183,183,1095,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,98],["2019-07-18","2019-07-18","2022-01-15","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-04"],["Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Vegetable<\/th>\n      <th>Variety<\/th>\n      <th>Date sown<\/th>\n      <th>Days to harvest<\/th>\n      <th>Harvest day<\/th>\n      <th>Ready<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"autoWidth":true,"columnDefs":[{"className":"dt-right","targets":3}],"order":[],"orderClasses":false,"rowCallback":"function(row, data) {\nvar value=data[5]; $(this.api().cell(row, 5).node()).css({'background-color':value == 'Not yet' ? 'white' : value == 'Harvest' ? 'yellow' : ''});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
