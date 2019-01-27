@@ -1,18 +1,18 @@
 ---
-title: Plants 2019
-date: '2019-01-26'
+title: "Plants 2019"
 slug: plants-2019
+date: '2019-01-26'
 ---
 
-```{r}
+```{r echo=FALSE}
 library(lubridate)
 library(DT)
 library(tidyverse)
-library(shiny)
 
 plants=read.csv("C:/Users/Emma/Documents/blogdown/garden/plants_2019.csv", header=T)
 
 plants$Date_Sown=as.Date(plants$Date_Sown,format = "%d/%m/%Y")
+#plants$Date_Sown=as.Date(format(plants$Date_Sown, format = "%d/%m/%Y"))
 
 plants=plants%>%
   mutate(harvest_date=ymd(Date_Sown+days(Days_to_havest)))
@@ -20,8 +20,12 @@ plants=plants%>%
 
 plants2=plants%>%
   mutate(ready=case_when(harvest_date >= today() ~ "Not yet", TRUE~"Harvest"))
+
+names(plants2)=c("Vegetable", "Variety","Date sown", "Days to harvest","Harvest day","Ready")
     
-datatable(plants2) %>% formatStyle("ready",
+datatable(plants2, rownames=FALSE,options = list(
+  pageLength = 10, autoWidth = TRUE
+)) %>% formatStyle("Ready",
   backgroundColor = styleEqual(c("Not yet", "Harvest"), c('white', 'yellow'))
 )
 

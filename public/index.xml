@@ -17,7 +17,7 @@
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/plants-2019/</guid>
-      <description>library(lubridate)## ## Attaching package: &amp;#39;lubridate&amp;#39;## The following object is masked from &amp;#39;package:base&amp;#39;:## ## datelibrary(DT)library(tidyverse)## -- Attaching packages ----------------------------------------------------------- tidyverse 1.2.1 --## v ggplot2 2.2.1 v purrr 0.2.5## v tibble 1.4.2 v dplyr 0.7.8## v tidyr 0.8.2 v stringr 1.3.0## v readr 1.1.1 v forcats 0.3.0## -- Conflicts -------------------------------------------------------------- tidyverse_conflicts() --## x lubridate::as.difftime() masks base::as.</description>
+      <description>## ## Attaching package: &amp;#39;lubridate&amp;#39;## The following object is masked from &amp;#39;package:base&amp;#39;:## ## date## -- Attaching packages ----------------------------------------------------------- tidyverse 1.2.1 --## v ggplot2 2.2.1 v purrr 0.2.5## v tibble 1.4.2 v dplyr 0.7.8## v tidyr 0.8.2 v stringr 1.3.0## v readr 1.1.1 v forcats 0.3.0## -- Conflicts -------------------------------------------------------------- tidyverse_conflicts() --## x lubridate::as.difftime() masks base::as.difftime()## x lubridate::date() masks base::date()## x dplyr::filter() masks stats::filter()## x lubridate::intersect() masks base::intersect()## x dplyr::lag() masks stats::lag()## x lubridate::setdiff() masks base::setdiff()## x lubridate::union() masks base::union(){&#34;</description>
     </item>
     
     <item>

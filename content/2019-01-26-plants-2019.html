@@ -1,7 +1,7 @@
 ---
-title: Plants 2019
-date: '2019-01-26'
+title: "Plants 2019"
 slug: plants-2019
+date: '2019-01-26'
 ---
 
 <script src="/rmarkdown-libs/htmlwidgets/htmlwidgets.js"></script>
@@ -15,14 +15,11 @@ slug: plants-2019
 <script src="/rmarkdown-libs/crosstalk/js/crosstalk.min.js"></script>
 
 
-<pre class="r"><code>library(lubridate)</code></pre>
 <pre><code>## 
 ## Attaching package: &#39;lubridate&#39;</code></pre>
 <pre><code>## The following object is masked from &#39;package:base&#39;:
 ## 
 ##     date</code></pre>
-<pre class="r"><code>library(DT)
-library(tidyverse)</code></pre>
 <pre><code>## -- Attaching packages ----------------------------------------------------------- tidyverse 1.2.1 --</code></pre>
 <pre><code>## v ggplot2 2.2.1     v purrr   0.2.5
 ## v tibble  1.4.2     v dplyr   0.7.8
@@ -36,25 +33,5 @@ library(tidyverse)</code></pre>
 ## x dplyr::lag()             masks stats::lag()
 ## x lubridate::setdiff()     masks base::setdiff()
 ## x lubridate::union()       masks base::union()</code></pre>
-<pre class="r"><code>library(shiny)</code></pre>
-<pre><code>## 
-## Attaching package: &#39;shiny&#39;</code></pre>
-<pre><code>## The following objects are masked from &#39;package:DT&#39;:
-## 
-##     dataTableOutput, renderDataTable</code></pre>
-<pre class="r"><code>plants=read.csv(&quot;C:/Users/Emma/Documents/blogdown/garden/plants_2019.csv&quot;, header=T)
-
-plants$Date_Sown=as.Date(plants$Date_Sown,format = &quot;%d/%m/%Y&quot;)
-
-plants=plants%&gt;%
-  mutate(harvest_date=ymd(Date_Sown+days(Days_to_havest)))
-
-
-plants2=plants%&gt;%
-  mutate(ready=case_when(harvest_date &gt;= today() ~ &quot;Not yet&quot;, TRUE~&quot;Harvest&quot;))
-    
-datatable(plants2) %&gt;% formatStyle(&quot;ready&quot;,
-  backgroundColor = styleEqual(c(&quot;Not yet&quot;, &quot;Harvest&quot;), c(&#39;white&#39;, &#39;yellow&#39;))
-)</code></pre>
 <div id="htmlwidget-1" style="width:100%;height:auto;" class="datatables html-widget"></div>
-<script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","data":[["1","2","3","4","5","6","7","8","9","10","11","12","13","14","15","16","17","18","19"],["Onion","Garlic","Asparagus","Chili","Chili","Chili","Chili","Tomtato","Tomtato","Tomtato","Tomtato","Tomtato","Tomtato","Aubergine","Aubergine","Tomatillo","Corn","Corn","Peas"],["Red","Cassablanca","Green","Cayene","Haberno","Pepchomix","Birds eye","Tigerella","Yellow pear","Plum","San Marnez","Sweet Pea (cherry)","Costoluto Florentino","Moneymaker","Lista de Gandia","Purple","Incredible F1","Fiesta Field","Early Onward"],["2019-01-16","2019-01-16","2019-01-16","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26"],[183,183,1095,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,98],["2019-07-18","2019-07-18","2022-01-15","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-04"],["Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th> <\/th>\n      <th>Vegetable<\/th>\n      <th>Variety<\/th>\n      <th>Date_Sown<\/th>\n      <th>Days_to_havest<\/th>\n      <th>harvest_date<\/th>\n      <th>ready<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"columnDefs":[{"className":"dt-right","targets":4},{"orderable":false,"targets":0}],"order":[],"autoWidth":false,"orderClasses":false,"rowCallback":"function(row, data) {\nvar value=data[6]; $(this.api().cell(row, 6).node()).css({'background-color':value == 'Not yet' ? 'white' : value == 'Harvest' ? 'yellow' : ''});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
+<script type="application/json" data-for="htmlwidget-1">{"x":{"filter":"none","data":[["Onion","Garlic","Asparagus","Chili","Chili","Chili","Chili","Tomtato","Tomtato","Tomtato","Tomtato","Tomtato","Tomtato","Aubergine","Aubergine","Tomatillo","Corn","Corn","Peas"],["Red","Cassablanca","Green","Cayene","Haberno","Pepchomix","Birds eye","Tigerella","Yellow pear","Plum","San Marnez","Sweet Pea (cherry)","Costoluto Florentino","Moneymaker","Lista de Gandia","Purple","Incredible F1","Fiesta Field","Early Onward"],["2019-01-16","2019-01-16","2019-01-16","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26","2019-01-26"],[183,183,1095,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,98],["2019-07-18","2019-07-18","2022-01-15","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-06","2019-05-04"],["Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet","Not yet"]],"container":"<table class=\"display\">\n  <thead>\n    <tr>\n      <th>Vegetable<\/th>\n      <th>Variety<\/th>\n      <th>Date sown<\/th>\n      <th>Days to harvest<\/th>\n      <th>Harvest day<\/th>\n      <th>Ready<\/th>\n    <\/tr>\n  <\/thead>\n<\/table>","options":{"pageLength":10,"autoWidth":true,"columnDefs":[{"className":"dt-right","targets":3}],"order":[],"orderClasses":false,"rowCallback":"function(row, data) {\nvar value=data[5]; $(this.api().cell(row, 5).node()).css({'background-color':value == 'Not yet' ? 'white' : value == 'Harvest' ? 'yellow' : ''});\n}"}},"evals":["options.rowCallback"],"jsHooks":[]}</script>
