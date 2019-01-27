@@ -15,3 +15,7 @@
 [plot]
     Name = "My Plot"
     URL = "/myplot"
+
+[plants]
+    Name = "Plants for 2019"
+    URL = "/plants-2019"

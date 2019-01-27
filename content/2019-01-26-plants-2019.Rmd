@@ -1,0 +1,29 @@
+---
+title: Plants 2019
+date: '2019-01-26'
+slug: plants-2019
+---
+
+```{r}
+library(lubridate)
+library(DT)
+library(tidyverse)
+library(shiny)
+
+plants=read.csv("C:/Users/Emma/Documents/blogdown/garden/plants_2019.csv", header=T)
+
+plants$Date_Sown=as.Date(plants$Date_Sown,format = "%d/%m/%Y")
+
+plants=plants%>%
+  mutate(harvest_date=ymd(Date_Sown+days(Days_to_havest)))
+
+
+plants2=plants%>%
+  mutate(ready=case_when(harvest_date >= today() ~ "Not yet", TRUE~"Harvest"))
+    
+datatable(plants2) %>% formatStyle("ready",
+  backgroundColor = styleEqual(c("Not yet", "Harvest"), c('white', 'yellow'))
+)
+
+
+```
