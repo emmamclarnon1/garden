@@ -47,7 +47,7 @@ today=ymd(today)
 #Make dataframe
 veg=c("Onions", "Garlic", "Asparagus")
 sown=c(today)
-harv=(today()+hours(18)+minutes(12))
+harv=(today()+hours(18)+minutes(30))
 h2=today-years(1)
 harvest=c(harv,harv,h2)
 plants_1=data.frame(veg,sown,harvest)
