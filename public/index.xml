@@ -17,7 +17,7 @@
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/plants-2019/</guid>
-      <description>This page is here to help me keep track of the seeds I have sown and when I need to harvest them. I’ve added some conditional formatting into the code, so that when the date is equal to or exceeds today’s date, the cells will be highlighted yellow. I’m not sure if this will work in a static website, because the value for today is taken from R, rahter than the website.</description>
+      <description>This page is here to help me keep track of the seeds I have sown and when I need to harvest them. I’ve added some conditional formatting into the code, so that when the date is equal to or exceeds today’s date, the cells will be highlighted yellow. I’m not sure if this will work in a static website, because the value for today is taken from R, rather than the website.</description>
     </item>
     
     <item>

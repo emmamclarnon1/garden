@@ -4,7 +4,7 @@ slug: plants-2019
 date: '2019-01-26'
 ---
 
-This page is here to help me keep track of the seeds I have sown and when I need to harvest them.  I've added some conditional formatting into the code, so that when the date is equal to or exceeds today's date, the cells will be highlighted yellow.  I'm not sure if this will work in a static website, because the value for today is taken from R, rahter than the website.  We'll have to see if it works.  For now, enjoy!
+This page is here to help me keep track of the seeds I have sown and when I need to harvest them.  I've added some conditional formatting into the code, so that when the date is equal to or exceeds today's date, the cells will be highlighted yellow.  I'm not sure if this will work in a static website, because the value for today is taken from R, rather than the website.  We'll have to see if it works, so I will be testing it wil some fake harvest dates.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE }
 library(lubridate)
@@ -32,4 +32,36 @@ datatable(plants2, rownames=FALSE,options = list(
 )
 
 
+```
+
+
+### Testing Zone
+
+Test to see if highlight works
+
+```{r}
+
+today="2019-01-16"
+today=ymd(today)
+
+#Make dataframe
+veg=c("Onions", "Garlic", "Asparagus")
+sown=c(today)
+harv=(today()+hours(18)+minutes(12))
+h2=today-years(1)
+harvest=c(harv,harv,h2)
+plants_1=data.frame(veg,sown,harvest)
+names(plants_1)=c("Vegetable", "Date_Sown", "Harvest_Date")
+
+str(plants_1)
+
+
+
+#library(DT)
+plants_2=plants_1%>%
+  mutate(ready=case_when(Harvest_Date >= today() ~ "Not yet", TRUE~"Harvest"))
+    
+datatable(plants_2) %>% formatStyle("ready",
+  backgroundColor = styleEqual(c("Not yet", "Harvest"), c('white', 'yellow'))
+)
 ```
