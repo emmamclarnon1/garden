@@ -6,10 +6,20 @@
     <description>Recent content on gardenR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 27 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 14 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Goodbye winter</title>
+      <link>/post/goodbye-winter/</link>
+      <pubDate>Thu, 14 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/goodbye-winter/</guid>
+      <description>Hello. It’s been quite frosty recently, so I’ve been sowing seeds inside and making a complete mess with perlite.
+A few years ago, we had a terrible infestation with compost gnats when I reported a dragon tree, so I wanted to avoid that again this year. My bright idea was to buy loads of perlite and start the chillies and tomatoes off inside. I used this during my PhD very briefly and it was grand.</description>
+    </item>
     
     <item>
       <title>Sunday sowing</title>
@@ -26,7 +36,8 @@
       <pubDate>Sat, 26 Jan 2019 00:00:00 +0000</pubDate>
       
       <guid>/plants-2019/</guid>
-      <description>This page is here to help me keep track of the seeds I have sown and when I need to harvest them. I’ve added some conditional formatting into the code, so that when the date is equal to or exceeds today’s date, the cells will be highlighted yellow. I’m not sure if this will work in a static website, because the value for today is taken from R, rather than the website.</description>
+      <description>This page is here to help me keep track of the seeds I have sown and when I need to harvest them.
+{&#34;x&#34;:{&#34;filter&#34;:&#34;none&#34;,&#34;data&#34;:[[&#34;Onion&#34;,&#34;Garlic&#34;,&#34;Asparagus&#34;,&#34;Chili&#34;,&#34;Chili&#34;,&#34;Chili&#34;,&#34;Chili&#34;,&#34;Tomtato&#34;,&#34;Tomtato&#34;,&#34;Tomtato&#34;,&#34;Tomtato&#34;,&#34;Tomtato&#34;,&#34;Tomtato&#34;,&#34;Aubergine&#34;,&#34;Aubergine&#34;,&#34;Tomatillo&#34;,&#34;Corn&#34;,&#34;Corn&#34;,&#34;Peas&#34;],[&#34;Red&#34;,&#34;Cassablanca&#34;,&#34;Green&#34;,&#34;Cayene&#34;,&#34;Haberno&#34;,&#34;Pepchomix&#34;,&#34;Birds eye&#34;,&#34;Tigerella&#34;,&#34;Yellow pear&#34;,&#34;Plum&#34;,&#34;San Marnez&#34;,&#34;Sweet Pea (cherry)&#34;,&#34;Costoluto Florentino&#34;,&#34;Moneymaker&#34;,&#34;Lista de Gandia&#34;,&#34;Purple&#34;,&#34;Incredible F1&#34;,&#34;Fiesta Field&#34;,&#34;Early Onward&#34;],[&#34;2019-01-16&#34;,&#34;2019-01-16&#34;,&#34;2019-01-16&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;,&#34;2019-01-26&#34;],[183,183,1095,100,100,100,100,100,100,100,100,100,100,100,100,100,100,100,98],[&#34;2019-07-18&#34;,&#34;2019-07-18&#34;,&#34;2022-01-15&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-06&#34;,&#34;2019-05-04&#34;],[&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;,&#34;Not yet&#34;]],&#34;container&#34;:&#34;\n \n \n Vegetable\n Variety\n Date sown\n Days to harvest\n Harvest day\n Ready\n \n \n&#34;</description>
     </item>
     
     <item>
