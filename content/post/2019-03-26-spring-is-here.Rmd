@@ -1,8 +1,8 @@
 ---
-title: Spring is here!
+title: Spring is here (again)!
 author: Emma McLarnon
 date: '2019-03-26'
-slug: spring-is-here
+slug: spring-is-here-again
 type: post
 ---
 It's been a while, but rest assured I've been beavering away in the garden and at the allotment.
