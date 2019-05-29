@@ -6,10 +6,19 @@
     <description>Recent content in Posts on gardenR</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 26 Mar 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 29 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Allotment update</title>
+      <link>/post/allotment-update/</link>
+      <pubDate>Wed, 29 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/allotment-update/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Spring is here (again)!</title>
